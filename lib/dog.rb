@@ -1,3 +1,5 @@
+require pry 
+
 class Dog 
  def name 
     @name
@@ -14,5 +16,5 @@ class Dog
   def breed=(dog_breed)
     @breed = dog_breed
   end
-  
+binding.pry 
 end
